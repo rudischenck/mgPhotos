@@ -1,0 +1,48 @@
+/************************** 
+BASIC STYLES 
+***************************/
+
+
+/***************************  
+CARD POSITIONS
+****************************/
+
+/* .positionplaceholder {
+    position: relative;
+}
+
+.bot-left {
+    position: fixed;
+}
+
+.top-mid {
+    bottom: auto;
+}
+.bot-right {
+    right: 3rem;
+    top: 3rem;
+} */
+
+/***************************  
+MEDIA QUERIES
+****************************/
+
+@media (min-width: 768px) {
+    .carouselhide {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .placeholderhide {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .navbar-brand {
+        height: auto;
+        max-width: 65%;
+    }
+}
