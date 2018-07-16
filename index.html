@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Euphoria+Script|Montserrat" rel="stylesheet">
+
+    <!-- social media logos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,11 +16,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <title>mgPhotos</title>
+
 </head>
 <body>
     <!-- navbar -->
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top py-md-4">
+    <nav class="navbar navbar-expand-sm navbar-light bg-white sticky-top py-md-4">
         <a class="navbar-brand" href="#"><img class="img-fluid" alt="logo" id="logo" src="images/Lexington-KY-Photographer-LOGO.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,7 +35,7 @@
                     <a class="nav-link" href="#">Investment</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
                 <li class="nav-item dropdown order-first">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -75,7 +83,8 @@
     <!-- /carousel -->
 
     <!-- card columns -->
-    <div class="container pt-5 placeholderhide pb-5" id="portfolio-links">
+    <!-- container -->
+    <div class="container py-4 placeholderhide px-4 main-area mw-100">
         <div class="card-columns positionplaceholder">
             <div class="card bot-left">
                 <img class="card-img" src="images/Lexington-Photographer-4.JPG" alt="Card image">
@@ -88,43 +97,74 @@
             </div>
         </div>
     </div>
+    <!-- /container -->
     <!-- /card columns -->
-    <hr>
+
     <!-- portfolio links -->
-    <div class="container pt-3">
+    <!-- container -->
+    <div class="container py-3 px-4 bg-white mw-100 portfolio-links">
         <div class="row">
-            <div class="card col-12 border-0 col-md-4" style="width: 18rem;">
-                <a href="#weddings" id="weddings"><img class="card-img-top" src="images/Lexington-Photographer-7.jpg" alt="Card image cap"></a>
-                <div class="card-body">
+            <a href="#weddings" id="weddings" class="card col-12 border-0 col-md-4 mb-3" style="width: 18rem;">
+                <img class="card-img" src="images/Lexington-Photographer-7.jpg" alt="Card image cap">
+                <div class="card-img-overlay">
                     <p class="card-text text-center">Weddings</p>
                 </div>
-            </div>
-            <div class="card col-12 border-0 col-md-4" style="width: 18rem;">
-                <a href="#maternity"><img class="card-img-top" src="images/Lexington-Photographer-7.jpg" alt="Card image cap"></a>
-                <div class="card-body">
+            </a>
+            <a href="#maternity" id="maternity" class="card col-12 border-0 col-md-4 mb-3" style="width: 18rem;">
+                <img class="card-img" src="images/Lexington-Photographer-7.jpg" alt="Card image cap">
+                <div class="card-img-overlay">
                     <p class="card-text text-center">Maternity</p>
                 </div>
-            </div>
-            <div class="card col-12 border-0 col-md-4" style="width: 18rem;">
-                <a href="#newborn"><img class="card-img-top" src="images/Lexington-Photographer-7.jpg" alt="Card image cap"></a>
-                <div class="card-body">
+            </a>
+            <a href="#newborn" id="newborn" class="card col-12 border-0 col-md-4" style="width: 18rem;">
+                    <img class="card-img" src="images/Lexington-Photographer-7.jpg" alt="Card image cap">
+                <div class="card-img-overlay">
                     <p class="card-text text-center">Newborns</p>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
-    <!-- portfolio links -->
-    <hr>
+    <!-- /container -->
+    <!-- /portfolio links -->
+
     <!-- call to action -->
     <!-- container -->
-    <div class="container">
-        <div class="row">
-            <img class="img-fluid col-md-6" src="images/Lexington-Photographer-7.jpg" alt="placeholder">
-            <p class="col-md-6">Live. Laugh. Love. These are your moments Captured with Grace. Something Something</p>
+    <div class="container py-4">
+        <div class="row justify-content-around">
+            <div class="col-md-6 text-center">
+                <img class="img-fluid" src="images/Lexington-Photographer-7.jpg" alt="placeholder">
+            </div>
+            <div class="col-md-6 text-center align-self-center">
+                <!-- <div class="row justify-content-around align-items-start"> -->
+                    <p class="cta-1">Live. Laugh. Love.</p>
+                <!-- </div> -->
+                <!-- <div class="row justify-content-around align-items-center"> -->
+                    <p class="cta-2">These are your moments Captured with Grace.</p>
+                <!-- </div> -->
+                <!-- <div class="row justify-content-around align-items-end"> -->
+                    <p class="cta-3">Something Something</p>
+                <!-- </div> -->
+            </div>
         </div>
     </div>
     <!-- /container -->
     <!-- /call to action -->
+
+    <!-- footer -->
+    <div class="container mw-100 py-3 footer">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link fa fa-facebook" href="#"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fa fa-twitter" href="#"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fa fa-instagram" href="#"></a>
+            </li>
+        </ul>
+    </div>
+    <!-- /footer -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

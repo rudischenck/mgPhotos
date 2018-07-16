@@ -1,7 +1,73 @@
+/* font-family: 'Euphoria Script', cursive;
+font-family: 'Cormorant Infant', serif;
+font-family: 'Montserrat', sans-serif; */
+
+
 /************************** 
 BASIC STYLES 
 ***************************/
+body {
+    background-color: #fff0f2
+}
 
+.footer {
+    background-color: #ffa4b0;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 1.5rem;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+
+/************************** 
+FONTS 
+***************************/
+.navbar {
+    font-family: 'Cormorant Infant', serif;
+    color: #888;
+    font-size: 1.2rem;
+}
+
+.portfolio-links,
+.cta-1 {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 1.4rem;
+}
+
+.portfolio-links {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.cta-1 {
+    font-size: 1.6rem;
+}
+
+.cta-2 {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 1.2rem;
+}
+
+.cta-3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+.words {
+    font-family: 'Euphoria Script', cursive;
+    font-size: 1.6rem;
+    color: #555555;
+}
 
 /***************************  
 CARD POSITIONS
@@ -28,7 +94,8 @@ MEDIA QUERIES
 ****************************/
 
 @media (min-width: 768px) {
-    .carouselhide {
+    .carouselhide, 
+    .words {
         display: none;
     }
 }
