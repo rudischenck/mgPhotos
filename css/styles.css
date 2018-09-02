@@ -7,7 +7,7 @@ font-family: 'Montserrat', sans-serif; */
 BASIC STYLES 
 ***************************/
 body {
-    background-color: #fff0f2
+    background-color: #fff0f2;
 }
 
 .footer {
@@ -28,6 +28,9 @@ a {
     color: white;
 }
 
+.rose {
+    background-color: #fff0f2;
+}
 
 /************************** 
 FONTS 
@@ -42,11 +45,13 @@ FONTS
 .cta-1 {
     font-family: 'Euphoria Script', cursive;
     font-size: 1.4rem;
+    color: #000000
 }
 
 .portfolio-links {
     font-size: 1.8rem;
     color: white;
+
 }
 
 .cta-1 {
@@ -68,6 +73,22 @@ FONTS
     font-size: 1.6rem;
     color: #555555;
 }
+
+.header {
+    font-family: 'Cormorant Infant', serif;
+    color: #fff;
+    background-color: #ffa4b0;
+    text-shadow: #000;
+    letter-spacing: .15em;
+    font-size:3.0rem;
+}
+
+.verse {
+    font-family: 'Euphoria Script', cursive;
+    color: #444444;
+    font-size: 1.4rem;
+}
+
 
 /***************************  
 CARD POSITIONS
